@@ -1,0 +1,628 @@
+"page17": {
+      "type": "endCourse",
+      "message": {
+        "success": {
+          "title": "¡Has llegado al final de este recorrido!",
+          "subTitle": "",
+          "module": "",
+          "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+        },
+
+        "error": {
+          "title": "¡Has llegado al final de este recorrido!",
+          "subTitle": "¡Muchos éxitos!",
+          "module": "",
+          "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+        }
+      },
+      "logoCourse": "img/cover/logo-1.png",
+      "logoFooter": "",
+      "background": {
+        "bg": "img/cover/fondo-end.png"
+      },
+      "buttonEnd": "Finalizar",
+      "footer": {
+        "label": ""
+      } 
+    }
+
+    "page16": {
+    "type": "pageCourse",
+    "title": "Ejercicio valorativo de este módulo",
+    "text": "",
+    "multimedia": {
+      "modal": {
+        "check": {
+          "title": "¡Muy bien!",
+          "text": "",
+          "img": "img/16/check.png"
+        },
+        "error": {
+          "title": "¡Intenta de nuevo!",
+          "text": "",
+          "img": "img/16/error.png"
+        }
+      },
+      "questions": [
+        {
+          "type": "Pair",
+          "instruction": "",
+          "statement": "<b>1.</b> Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+          "pair": {
+            "colors": "#9bc440",
+            "labels": [
+              {
+                "p" : "Año de diseño y factibilidad",
+                "img": "",
+                "pair" : 1
+              },
+              {
+                "p" : "Año de graduación de los primeros 20 tecnólogos ",
+                "img": "",
+                "pair" : 2
+              },
+              {
+                "p" : "Año del inicio de las actividades académicas ",
+                "img": "",
+                "pair" : 3
+              },
+              {
+                "p" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI) ",
+                "img": "",
+                "pair" : 4
+              }
+            ],
+            "texts": [
+              {
+                "p": "Año de diseño y factibilidad",
+                "img":"",
+                "pair": 3
+              },
+              {
+                "p": "Año de graduación de los primeros 20 tecnólogos ",
+                "img":"",
+                "pair": 4
+              },
+              {
+                "p": "Año del inicio de las actividades académicas ",
+                "img":"",
+                "pair": 2
+              },
+              {
+                "p": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI) ",
+                "img":"",
+                "pair": 1
+              }
+            ]
+           }
+          },
+        {
+          "type": "single",
+          "statement": "<b>2.</b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
+          "options": [
+            {
+              "type": "A",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, <br>además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": true,
+              "color": "#86BF41"
+            },
+            {
+              "type": "B",
+              "text": "Una institución universitaria, pública, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "C",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": false,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>3.</b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
+              "value": false,
+              "color": "#F39625"
+            },
+            {
+              "type": "B",
+              "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
+              "value": false,
+              "color": "#3881B6"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>4.</b>  La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La interacción dinámica desde la creatividad, la tecnología y la ciencia para acceder a la educación.",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "B",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, la Ciencia, la Tecnología y la Productividad, para facilitar el acceso a la educación y a la investigación.",
+              "value": false,
+              "color": "#266D72"
+            },
+            {
+              "type": "C",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
+              "value": true,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>5.</b>  La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+          "options": [
+            {
+              "type": "A",
+              "text": "Fe, Dignidad Humana, Compromiso y Disciplina.",
+              "value": true,
+              "color": "#F14711"
+            },
+            {
+              "type": "B",
+              "text": "La generación de valor, La mediación social, el servicio, Defensa de la dignidad humana y el bien común, Cultura de la Innovación y Conciencia de Sostenibilidad.",
+              "value": false,
+              "color": "#3881B6"
+            },
+            {
+              "type": "C",
+              "text": "Participación, Solidaridad, Equidad, Seguridad",
+              "value": false,
+              "color": "#6DA001"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "statement": "<b>6.</b> Elige 3 parámetros correctos del código de vestuario: ",
+          "options": [
+            {
+              "type": "A",
+              "text": "No usar prendas demasiado ajustadas.",
+              "value": true,
+              "color": "#00386D"
+            },
+            {
+              "type": "B",
+              "text": "No se debe usar tenis (solo en eventos que así lo ameriten).",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "Los viernes uso del jean clásico.",
+              "value": true,
+              "color": "#6DA001"
+            },
+            {
+              "type": "D",
+              "text": "Se puede usar expansores, gorras y piercing. ",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "E",
+              "text": "Uso del jean clásico en cualquier momento.",
+              "value": false,
+              "color": "#B30E6A"
+            }
+          ]
+        },
+        {
+          "type": "Pair",
+          "instruction": "",
+          "statement": "<b>7.</b> Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+          "pair": {
+            "labels": [
+              {
+                "p" : "Licencia de maternidad",
+                "img": "",
+                "pair" : 1
+              },
+              {
+                "p" : "Licencia de luto",
+                "img": "",
+                "pair" : 2
+              },
+              {
+                "p" : "Licencia por paternidad",
+                "img": "",
+                "pair" : 3
+              },
+              {
+                "p" : "Licencia por cargos oficiales ",
+                "img": "",
+                "pair" : 4
+              },
+              {
+                "p" : "Licencia por ejercer el derecho al voto ",
+                "img": "",
+                "pair" : 5
+              }
+            ],
+            "texts": [
+              {
+                "p": "1 día hábil",
+                "img":"",
+                "pair": 4
+              },
+              {
+                "p": "Artículo 236",
+                "img":"",
+                "pair": 1
+              },
+              {
+                "p": "Dos semanas",
+                "img":"",
+                "pair": 3
+              },
+              {
+                "p": "Medio día",
+                "img":"",
+                "pair": 5
+              },
+              {
+                "p": "Ley 1280 de 2009",
+                "img":"",
+                "pair": 2
+              }
+            ]
+           }
+        },
+        {
+          "type": "multiple",
+          "statement": "<b>8.</b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "IUSH",
+              "value": true,
+              "color": "#B3056A"
+            },
+            {
+              "type": "B",
+              "text": "LICEO",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "CORSAHE",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "D",
+              "text": "RONDALLA",
+              "value": true,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "E",
+              "text": "UPB",
+              "value": false,
+              "color": "#F39603"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>9.</b> ¿Cuántas Escuelas tiene la IUSH? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "a. 5",
+              "value": false,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "B",
+              "text": "b. 4",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "c. 3",
+              "value": false,
+              "color": "#D51B43"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>10.</b>  ¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "6",
+              "value": false,
+              "color": "#780D80"
+            },
+            {
+              "type": "B",
+              "text": "4",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "C",
+              "text": "3",
+              "value": false,
+              "color": "#6DA01C"
+            },
+            {
+              "type": "D",
+              "text": "Ninguna de las anteriores ",
+              "value": true,
+              "color": "#F39625"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+   // {
+        //   "type": "labelPair",
+        //   "instruction": "",
+        //   "statement": "<b>1.</b>Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+        //   "lbl": {
+        //     "labels": [
+        //       {
+        //         "p": "Año de diseño y factibilidad ",
+        //         "img": "",
+        //         "pair": 1
+        //       },
+        //       {
+        //         "p": "Año de graduación de los primeros 20 tecnólogos",
+        //         "img": "",
+        //         "pair": 2
+        //       },
+        //       {
+        //         "p": "Año del inicio de las actividades académicas",
+        //         "img": "",
+        //         "pair": 3
+        //       },
+        //       {
+        //         "p": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)",
+        //         "img": "",
+        //         "pair": 4
+        //       }
+        //     ],
+        //     "text":[
+        //       {
+        //         "p": "2005 ",
+        //         "img": "",
+        //         "pair": 4
+        //       },
+        //       {
+        //         "p": "1995 ",
+        //         "img": "",
+        //         "pair": 3
+        //       },
+        //       {
+        //         "p": "1992 ",
+        //         "img": "",
+        //         "pair": 1
+        //       },
+        //       {
+        //         "p": "1998 ",
+        //         "img": "",
+        //         "pair": 2
+        //       }
+        //     ]
+        //   }
+        // },
+
+
+import React, { Component } from 'react';
+import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
+
+// IMPORT FONT AWESOME LIBRARY
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+
+import './ModalInfo4Act3.scss';
+
+library.add(fas, fab, far);
+
+class ModalInfo4 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      Act3: false
+    }
+  }
+
+  actividad3Handle = (event) => {
+    let idSelect = event.target.id;
+    let numId = idSelect.substring(7, 8);
+
+    if (document.getElementById(event.target.id).getAttribute('value') === 'true') {
+
+      document.getElementById('audioNotification').src = 'audio/check.mp3';
+      document.getElementById('audioNotification').play();
+
+      for (var i = 0; i < 3; i++) {
+        document.getElementsByClassName('iconAct')[i].classList.remove('dNone');
+        document.getElementsByClassName('iCheck')[i].classList.add('dNone');
+        document.getElementsByClassName('iError')[i].classList.add('dNone');
+      }
+
+      document.getElementById('option-' + numId + '-check-act3-Op-' + numId).classList.remove('dNone');
+      document.getElementById('option-' + numId + '-error-act3-Op-' + numId).classList.add('dNone');
+      document.getElementById('option-' + numId + '-icon-act3-Op-' + numId).classList.add('dNone');
+
+      document.getElementById('actividad-3').classList.add('disabledSolid2');
+
+      this.isEnded();
+
+    } else {
+      document.getElementById('audioNotification').src = 'audio/error.mp3';
+      document.getElementById('audioNotification').play();
+
+      for (var j = 0; j < 3; j++) {
+        document.getElementsByClassName('iconAct')[j].classList.remove('dNone');
+        document.getElementsByClassName('iError')[j].classList.add('dNone');
+      }
+
+      document.getElementById('option-' + numId + '-error-act3-Op-' + numId).classList.remove('dNone');
+      document.getElementById('option-' + numId + '-icon-act3-Op-' + numId).classList.add('dNone');
+    }
+  }
+
+  isEnded = () => {
+    this.props.isEnded(true);
+  }
+
+  //FUNCION PARA CERRAR LA MODAL Y CAMBIAR EL STATE DE COVER
+  hideModal = () => {
+    document.querySelector('.footer').classList.remove('dNone');
+    this.props.showModal();
+  }
+
+  render() {
+    const { dataPage } = this.props;
+    return (
+      <div className = 'modalInfo4Act3 animated fadeIn d-Flex d-C'>
+
+        <audio
+          className = 'audio'
+          autoPlay = { '' }
+          id = 'audioNotification'
+          src = { '' }
+          ref = { (audio) => { this.audio = audio } } />
+
+        <div className = 'actividad3 mT-1' id = 'actividad3'>
+          <div className = 'mB-1'>
+            <h4 className = 'labelStatement2 mB-1' dangerouslySetInnerHTML = {{ __html: dataPage.actividad3.statement }}></h4>
+            <h4 className = 'labelStatement3' dangerouslySetInnerHTML = {{ __html: dataPage.actividad3.statement2 }}></h4>
+          </div>
+          <div className = 'optionsBox' id = 'actividad-3'>
+            {
+              dataPage.actividad3.choices.map((choice, i) => {
+                return(
+                  <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = {'act3-Op-' + (i + 1)}>
+                    <span className = 'fa-layers icon iconAct mR-05 d-Flex j-C aI-C' id = { 'option-' + (i + 1) + '-icon-act3-Op-' + (i + 1) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle' style = {{ 'color': choice.color }} />
+                      <h6 className = 'blanco fw-3'>{ choice.type }</h6>
+                    </span>
+                    <span className = 'fa-layers iconCheck iCheck mR-05 dNone' id = { 'option-' + (i + 1) + '-check-act3-Op-' + (i + 1) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle' />
+                      <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
+                    </span>
+                    <span className = 'fa-layers iconError iError mR-05 dNone' id = { 'option-' + (i + 1) + '-error-act3-Op-' + (i + 1) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle' />
+                      <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
+                    </span>
+
+                    <p className = 'labelStatement optionAct3 c-9 mR-1' id = { 'option-' + (i + 1) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.option }} onClick = { this.actividad3Handle }></p>
+                  </div>
+                )
+              })
+            }
+          </div>
+        </div>
+
+
+      </div>
+    );
+  }
+}
+
+export default ModalInfo4;
+
+
+<div className={"pageContent"}>
+        <div className="c-10 animated fadeIn d-Flex d-C j-C aI-S">
+          <div className="headerTitle d-Rr j-E aI-C mB-2 mL-4 mT-2">
+          {
+              dataPage.title ? <h2 className = 'F2' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'mL-5 c-9'>
+            <Quiz1 multimedia = { dataPage.multimedia } isEnded = { this.isEnded } endQuiz = { this.endQuiz } setScore = { this.props.setScore } />
+          </div>
+        </div>
+      </div>
+
+
+      "page17": {
+    "type"            : "endCourse",
+    "message": {
+      "success": {
+        "title"       : "¡Has llegado al final de este recorrido!",
+        "subTitle"    : "¡Muchas gracias!",
+        "module"      : "",
+        "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica las recomendaciones que hemos entregado a lo largo del curso. Sé parte del cambio, contribuye con nuestro planeta, recuerda que con tus buenas prácticas protegemos lo nuestro.<br><br><b>“Si nada cambia y tú cambias, toda cambia”. Autor: Marcel Proust</b>"
+      },
+      "error": {
+        "title"       : "¡No has cumplido con el objetivo!",
+        "subTitle"    : "¡Muchos éxitos!",
+        "module"      : "",
+        "courseName"  : "Te invitamos a realizar nuevamente la evaluación, esta vez lo harás mejor. <br><br>Concéntrate en las 3 preguntas que hemos preparado para ti."
+      }
+    },
+    "logoCourse"      : "img/cover/logo-1.png",
+    "logoFooter"      : "",
+    "background": {
+      "bg"            : "img/cover/fondo-end.png"
+    },
+    "buttonEnd"       : "Finalizar"
+  }
+
+
+  "page17": {
+    "type": "endCourse",
+    "message": {
+      "success": {
+        "title": "¡Has llegado al final de este recorrido!",
+        "subTitle": "",
+        "module": "",
+        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+      },
+
+      "error": {
+        "title": "¡Has llegado al final de este recorrido!",
+        "subTitle": "¡Muchos éxitos!",
+        "module": "",
+        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+      }
+    },
+    "logoCourse": "img/cover/logo-1.png",
+    "logoFooter": "",
+    "background": {
+      "bg": "img/cover/fondo-end.png"
+    },
+    "buttonEnd": "Finalizar",
+    "footer": {
+      "label": ""
+    }
+  }

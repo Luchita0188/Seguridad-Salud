@@ -1,0 +1,90 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.ModalGallery2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1024px;
+  height: 677px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(#01274E, 1);
+  z-index: 4;
+  transition: all .2s;
+
+  .itemGallery {
+    background-color: #F7F7F7;
+    border: 10px solid $blanco;
+    padding: 0.5em 4.2em 5.8rem 3.8rem;
+    border-radius: 15px;
+    width: 849px;
+    height: 630px;
+
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 2.5em;
+        color: #780E80;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: #780E80;
+        }
+      }
+    }
+  }
+
+  .navigationGallery {
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 2.5em;
+        color: #CACACA;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: $texto2;
+        }
+      }
+    }
+  }
+  
+  .buttonClose {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    padding: 0.4rem 0.1rem;
+    .iconButton {
+      color: red;
+      font-size: 2.3em;
+      transition: all .3s;
+    }
+
+    &:hover {
+      .iconButton {
+        color: #cf0000;
+      }
+    }
+  }
+  
+  .itemText {
+    background-color: transparent;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 0px;
+    width: 100%;
+    height: 0vh;
+  }
+}

@@ -1,0 +1,57 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.ModalCircle1 {
+  .circleButton {
+    background-color: transparent;
+    color: $color4;
+    font-size: 1.5em;
+    transition: all .3s;
+  } 
+
+  .bgItemGlobe {
+    background-color: #01274E;
+    position: absolute;
+    display: grid;
+    top: -281px;
+    left: -693px;
+    z-index: 4;
+    width: 1400px;
+    height: 818px;
+
+    .itemGlobe {
+      box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+      background-color: #F7F7F7;
+      align-self: center;
+      justify-self: center;
+      padding: 2rem 2.3em 2.3rem;
+      border-radius: 10px;
+      width: 555px;
+      height: 426px;
+
+      .enfasis-1 {
+        background-color: #F7F7F7;
+        border-radius: 10px;
+        padding: 1.5rem;
+      }
+
+      .buttonClose {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        padding: 0.4rem 0.1rem;
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+  }
+}
